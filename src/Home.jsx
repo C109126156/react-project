@@ -6,7 +6,7 @@ export default class Home extends Component {
       <div>
         <div
           id="carouselExampleAutoplaying"
-          class="carousel slide margin-t"
+          class="carousel slide"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner">
@@ -60,7 +60,12 @@ export default class Home extends Component {
         </div>
 
         <div>
-          <h3 className="text-center">惜食專區</h3>
+          <h3
+            className="text-center"
+            style={{ color: "#066b06d4", fontWeight: "bold" }}
+          >
+            惜食專區
+          </h3>
         </div>
       </div>
     );

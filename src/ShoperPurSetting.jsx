@@ -80,7 +80,7 @@ export default class ShoperPurSetting extends Component {
                 <label>3.價格(新台幣)</label>
                 <div>
                   <input
-                    className="w-50 text-center"
+                    className="w-25 text-center"
                     type="text"
                     value={this.state.amount}
                     onChange={(event) => {
@@ -125,6 +125,15 @@ export default class ShoperPurSetting extends Component {
                 </div>
 
                 <div className="content-margin">
+                  <hr
+                    style={{
+                      marginLeft: "200px",
+                      marginRight: "200px",
+                      display: "flex",
+                      justifyContent: "center",
+                      alignItems: "center",
+                    }}
+                  ></hr>
                   <label>團購設定</label>
                   <div
                     className="content-margin d-flex"
@@ -170,7 +179,7 @@ export default class ShoperPurSetting extends Component {
                 </div>
                 <div>
                   <input
-                    className="w-50 text-center"
+                    className="w-25 text-center"
                     type="text"
                     value={this.state.amount}
                     onChange={(event) => {
@@ -178,9 +187,71 @@ export default class ShoperPurSetting extends Component {
                     }}
                   ></input>
                 </div>
-                <div></div>
+              </div>
+
+              <hr className="content-margin" style={{ color: "white" }}></hr>
+
+              <div className="content-margin text-center">
+                <label>5.惜食專區</label>
+                <p className="content-margin">是否開啟惜食?</p>
+                <div
+                  className="d-flex"
+                  style={{
+                    justifyContent: "space-evenly",
+                    alignItems: "center",
+                  }}
+                >
+                  <div>
+                    <input
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault1"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      是
+                    </label>
+                  </div>
+                  <div>
+                    <input
+                      type="radio"
+                      name="flexRadioDefault"
+                      id="flexRadioDefault2"
+                    />
+                    <label class="form-check-label" for="flexRadioDefault2">
+                      否
+                    </label>
+                  </div>
+                </div>
+                <div className="content-margin d-flex center-content">
+                  <span className="necessary-icon">*</span>
+                  <label>惜食金額</label>
+                </div>
+                <div>
+                  <input
+                    className="w-25 text-center"
+                    type="text"
+                    value={this.state.amount}
+                    onChange={(event) => {
+                      this.setState({ amount: event.target.value });
+                    }}
+                  ></input>
+                </div>
               </div>
             </div>
+          </div>
+          <div className="content-margin text-center">
+            <button
+              className="btn btn-secondary"
+              style={{
+                marginBottom: "20px",
+                width: "150px",
+                height: "40px",
+                fontSize: "16px",
+              }}
+              onClick={this.onRegiClick}
+            >
+              上架商品
+            </button>
           </div>
         </div>
       </div>

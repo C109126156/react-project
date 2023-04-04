@@ -19,6 +19,8 @@ import HandiheShop from "./HandiheShop";
 import Social from "./Social";
 import GroupPurchase from "./GroupPurchase";
 import ShoperPurSetting from "./ShoperPurSetting";
+import MemProfileRevise from "./MemProfileRevise";
+import ShoperProfileRevise from "./ShoperProfileRevise";
 
 import CustomersList from "./參考/Customerslist";
 import ShoppingCart from "./參考/ShoppingCart";
@@ -53,8 +55,16 @@ export default class App extends Component {
               element={<MemRegister />}
             />
             <Route
-              path="/login/memlogin/shoperregister"
+              path="/login/memlogin/memprofilerevise"
+              element={<MemProfileRevise />}
+            />
+            <Route
+              path="/login/shoperlogin/shoperregister"
               element={<ShoperRegister />}
+            />
+            <Route
+              path="/login/shoperlogin/shoperprofilerevise"
+              element={<ShoperProfileRevise />}
             />
 
             <Route path="/login/forgotpass" element={<ForgotPass />} />

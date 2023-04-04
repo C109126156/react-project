@@ -5,7 +5,7 @@ export default class GroupPurchase extends Component {
 
   render() {
     return (
-      <div className="page-margin">
+      <div className="page-margin content-margin">
         <h4 style={{ fontWeight: "bold" }}>發起團購</h4>
         <div className="content-margin">
           <label>團購物品:</label>

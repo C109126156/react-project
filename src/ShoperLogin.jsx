@@ -14,7 +14,7 @@ export default class ShoperLogin extends Component {
         </h4>
 
         <div className="form-group form-row">
-          <label className="col-lg-4">Email:</label>
+          <label className="col-lg-4">Email</label>
           <input
             type="text"
             className="form-control"
@@ -27,7 +27,7 @@ export default class ShoperLogin extends Component {
 
         <div className="form-group form-row">
           <label className="col-lg-4" style={{ marginTop: 30 }}>
-            密碼:
+            密碼
           </label>
           <input
             type="password"
@@ -41,7 +41,7 @@ export default class ShoperLogin extends Component {
 
         <div style={{ marginTop: "15px" }}>
           <p>
-            <Link to="/login/memlogin/shoperregister" className="m-2">
+            <Link to="/login/shoperlogin/shoperregister" className="m-2">
               商家註冊
             </Link>
             <span> | </span>

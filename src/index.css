@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
 .pad-0{
   padding: 0 !important;
 }
@@ -44,6 +49,7 @@ a {
     height: 200px;
     width: 250px;
     border: 2px solid #BFC0C0;
+    border-radius: 8px;
     margin: 20px 20px 20px 20px;
     color: #BFC0C0;
     text-transform: uppercase;
@@ -120,10 +126,15 @@ textarea{
   resize: none;
 }
 
-
+.introTitle{
+  padding: "10px" ;
+  margin-left: "400px";
+  margin-right: "400px";
+  border-bottom: "2px solid dark";
+}
 
 .green-highlight{
-    color:#008000;
+    color:#066b06d4;
     font-size: 40px;
 }
 

@@ -9,9 +9,9 @@ export default class Social extends Component {
   render() {
     return (
       <div style={{ margin: "0px 200px 0 200px" }}>
-        <h4 className="text-center">社群系統</h4>
+        <h4 className="text-center content-margin">社群系統</h4>
         <div className="p-4" style={{ background: "gray" }}>
-          <h5>編輯內容</h5>
+          <h5>編輯內文</h5>
           <div
             style={{
               display: "flex",

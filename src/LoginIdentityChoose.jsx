@@ -4,7 +4,7 @@ export default class LoginIdentityChoose extends Component {
   render() {
     return (
       <div>
-        <h3 className="text-center">請選擇身分</h3>
+        <h3 className="content-margin text-center">請選擇身分</h3>
         <hr
           style={{
             marginLeft: "200px",
