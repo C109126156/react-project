@@ -12,8 +12,6 @@ export default class ShoppingCart extends Component {
   }
 
   render() {
-    console.log("render-ShoppingCart");
-
     return (
       <div>
         <h4>Shopping Cart</h4>
@@ -46,9 +44,7 @@ export default class ShoppingCart extends Component {
     this.setState({ products: prods });
   };
 
-  componentDidUpdate() {
-    console.log("componentDidUpdate");
-  }
+  componentDidUpdate() {}
 
   handleIncrement = (product, maxValue) => {
     let allProducts = [...this.state.products];

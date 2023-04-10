@@ -8,7 +8,7 @@ export default class Social extends Component {
 
   render() {
     return (
-      <div style={{ margin: "0px 200px 0 200px" }}>
+      <div className="page-margin">
         <h4 className="text-center content-margin">社群系統</h4>
         <div className="p-4" style={{ background: "gray" }}>
           <h5>編輯內文</h5>
@@ -41,7 +41,99 @@ export default class Social extends Component {
 
         <div>
           <hr style={{ marginTop: "50px" }}></hr>
-          <h5 style={{ textAlign: "center" }}>貼文瀏覽</h5>
+          <h5 style={{ textAlign: "center", marginBottom: "50px" }}>
+            貼文瀏覽
+          </h5>
+        </div>
+
+        {/* 貼文範圍 */}
+        <div style={{ marginBottom: "40px" }}>
+          <div className="d-flex">
+            <img
+              src="YanChaoPos.png"
+              width={"50px"}
+              height={"50px"}
+              style={{ borderRadius: "50%", marginRight: "10px" }}
+            ></img>
+            <span
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "10px",
+              }}
+            >
+              username
+            </span>
+          </div>
+          <div
+            style={{
+              marginTop: "15px",
+              backgroundColor: "gray",
+              height: "400px",
+              padding: "20px",
+            }}
+          >
+            內文
+          </div>
+        </div>
+        {/* 貼文範圍 */}
+        <div style={{ marginBottom: "40px" }}>
+          <div className="d-flex">
+            <img
+              src="YanChaoPos.png"
+              width={"50px"}
+              height={"50px"}
+              style={{ borderRadius: "50%", marginRight: "10px" }}
+            ></img>
+            <span
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "10px",
+              }}
+            >
+              username
+            </span>
+          </div>
+          <div
+            style={{
+              marginTop: "15px",
+              backgroundColor: "gray",
+              height: "400px",
+              padding: "20px",
+            }}
+          >
+            內文
+          </div>
+        </div>
+        <div style={{ marginBottom: "40px" }}>
+          <div className="d-flex">
+            <img
+              src="YanChaoPos.png"
+              width={"50px"}
+              height={"50px"}
+              style={{ borderRadius: "50%", marginRight: "10px" }}
+            ></img>
+            <span
+              style={{
+                justifyContent: "center",
+                alignItems: "center",
+                marginTop: "10px",
+              }}
+            >
+              username
+            </span>
+          </div>
+          <div
+            style={{
+              marginTop: "15px",
+              backgroundColor: "gray",
+              height: "400px",
+              padding: "20px",
+            }}
+          >
+            內文
+          </div>
         </div>
       </div>
     );

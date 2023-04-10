@@ -104,8 +104,8 @@ a {
 }
 
 .page-margin{
-  margin-left:30% !important;
-  margin-right:30% !important;
+  margin-left:200px!important;
+  margin-right:200px !important;
 }
 
 .content-margin{
@@ -145,4 +145,5 @@ textarea{
 
 .hand-icon{
     cursor:pointer;
+    color: rgb(0, 64, 255);
 }
